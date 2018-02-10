@@ -20,45 +20,88 @@
     </div>
 
     <!-- Main -->
-    <section class="wrapper style1">
-        <div class="container">
-            <div id="content">
+    <div class="container">
 
-                <!-- Content -->
+        <div class="row">
 
-                <article>
-                    <header>
-                        <h2>test</h2>
-                        <p>All content, all the time.</p>
-                    </header>
+            <div class="col-lg-8 col-lg-offset-2">
 
-                    <span class="image featured"><img src="images/banner.jpg" alt="" /></span>
+                <h1>Contact form Tutorial from <a href="http://bootstrapious.com">Bootstrapious.com</a></h1>
 
-                    <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-                        Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-                        Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-                        consequat etiam lorem ipsum dolor sit amet nullam.</p>
+                <p class="lead">This is a demo for our tutorial dedicated to crafting working Bootstrap contact form with PHP and AJAX background. At this part, we will add Google's ReCaptcha too.</p>
 
-                    <h3>And Yet Another Subheading</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-                        justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-                        ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-                        vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-                        Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-                        rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-                        Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-                        Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
 
-                    <p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-                        quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-                        Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-                        fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-                        Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-                        Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
-                </article>
+                <form id="contact-form" method="post" action="contact.php" role="form">
 
-            </div>
-        </div>
-    </section>
+                    <div class="messages"></div>
+
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Firstname *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_phone">Phone</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <!-- Replace data-sitekey with your own one, generated at https://www.google.com/recaptcha/admin -->
+                                    <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success btn-send" value="Send message">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-muted"><strong>*</strong> These fields are required. Contact form template by <a href="https://bootstrapious.com/p/bootstrap-recaptcha" target="_blank">Bootstrapious</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div><!-- /.8 -->
+
+        </div> <!-- /.row-->
+
+    </div> <!-- /.container-->
 
 <?php require_once "footer.html"?>
