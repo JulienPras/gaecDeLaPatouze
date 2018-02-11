@@ -21,42 +21,167 @@
 
     <!-- Main -->
     <section class="wrapper style1">
-        <div class="container">
-            <div id="content">
+            <div class="desc">
+                <h1>Ecommerce product list/grid</h1>
+                <p>Simple html/css  ecommerce product grid with a hover effect.</p>
 
-                <!-- Content -->
-                <article>
-                    <header>
-                        <h2>test</h2>
-                        <p>All content, all the time.</p>
-                    </header>
-
-                    <span class="image featured"><img src="images/banner.jpg" alt="" /></span>
-
-                    <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-                        Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-                        Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-                        consequat etiam lorem ipsum dolor sit amet nullam.</p>
-
-                    <h3>And Yet Another Subheading</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-                        justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-                        ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-                        vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-                        Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-                        rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-                        Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-                        Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
-
-                    <p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-                        quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-                        Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-                        fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-                        Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-                        Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
-                </article>
-
+                <div class="todo">
+                    <span>TODO list:</span>
+                    <ul>
+                        <li>Make it responsive folk!</li>
+                    </ul>
+                </div>
             </div>
+
+            <div class="content">
+                <!-- content here -->
+                <div class="product-grid product-grid--flexbox">
+                    <div class="product-grid__wrapper">
+                        <!-- Product list start here -->
+
+                        <!-- Single product -->
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/blanquette.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Single product -->
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/bourgignon.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/coteBoeuf.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/coteParisenne.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/coteVeau.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/escalope.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/filetBoeuf.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/noixRotir.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/paleron.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/rotiEpaule.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Product title</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis velit itaque odit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
         </div>
     </section>
 
