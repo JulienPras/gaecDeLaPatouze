@@ -176,6 +176,45 @@
 
                     </div>
                 </div>
+
+                <header>
+                    <h2>Le conditionement de la viande pour l'expédition</h2>
+                    <p>La viande est emballé avec soin pour que vous puissiez la recevoir dans les meilleurs conditions.</p>
+                </header>
+                <!-- content here -->
+                <div class="product-grid product-grid--flexbox">
+                    <div class="product-grid__wrapper">
+                        <!-- Product list start here -->
+
+                        <!-- Single product -->
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/conditionement.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">La viande</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end Single product -->
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/conditionnementCaissette.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">La caissette</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>

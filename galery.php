@@ -22,9 +22,33 @@
     <!-- Main -->
     <section class="wrapper style1">
         <div class="container">
-            <a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg"></a>
-            <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
-            <a data-fancybox="gallery" href="images/3.jpg"><img src="images/3.jpg"></a>
+            <div class="row">
+                <div class="column">
+                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg"></a>
+                    <a data-fancybox="gallery" href="images/3.jpg"><img src="images/3.jpg"></a>
+                    <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
+                </div>
+
+                <div class="column">
+                    <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
+                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg"></a>
+                    <a data-fancybox="gallery" href="images/3.jpg"><img src="images/3.jpg"></a>
+                </div>
+
+                <div class="column">
+                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/3.jpg"></a>
+                    <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
+                    <a data-fancybox="gallery" href="images/3.jpg"><img src="images/1.jpg"></a>
+                </div>
+
+                <div class="column">
+                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg"></a>
+                    <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
+                    <a data-fancybox="gallery" href="images/3.jpg"><img src="images/3.jpg"></a>
+                </div>
+
+
+            </div>
         </div>
     </section>
 
