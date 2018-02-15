@@ -59,7 +59,7 @@ html {
   margin-left: auto;
 }
 
-.row {
+.row2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -616,6 +616,7 @@ html {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
+    padding-top: 20%;
   }
   .order-md-first {
     -webkit-box-ordinal-group: 0;

@@ -21,65 +21,60 @@
 
     </div>
 
-    <!-- Banner -->
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="images/1.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="images/2.jpg" style="width:100%">
-                <div class="text">Caption Two</div>
-            </div>
-
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="images/2.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
-            </div>
-
-            <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <!-- The dots/circles -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
     <!-- Highlights -->
     <section class="wrapper style1">
         <div class="container">
+
+            <!-- Banner -->
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="images/slider1.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/slider2.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="images/slider3.jpg" style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+
             <div class="row 200%">
                 <section class="4u 12u(narrower)">
                     <div class="box highlight">
-                        <i class="icon major fa-paper-plane"></i>
-                        <h3>This Is Important</h3>
-                        <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                        <i class="icon major 	fa fa-users"></i>
+                        <h3>Une exploitation familiale</h3>
+                        <p>Deux frères partageant l'amour de la nature et de l'elevage.</p>
                     </div>
                 </section>
                 <section class="4u 12u(narrower)">
                     <div class="box highlight">
-                        <i class="icon major fa-pencil"></i>
-                        <h3>Also Important</h3>
-                        <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                        <i class="icon major fa fa-certificate"></i>
+                        <h3>Un élevage en plein air</h3>
+                        <p>Des vaches Salaires à qui on laisse leurs cornes, elevées dans les 10 hectares du Gaec.</p>
                     </div>
                 </section>
                 <section class="4u 12u(narrower)">
                     <div class="box highlight">
-                        <i class="icon major fa-wrench"></i>
-                        <h3>Probably Important</h3>
-                        <p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
+                        <i class="icon major fa fa-cutlery"></i>
+                        <h3>Un circuit court</h3>
+                        <p>Une viande savoureuse du producteur au consomateur sans intermédiaire.</p>
                     </div>
                 </section>
             </div>
