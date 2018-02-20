@@ -67,7 +67,7 @@
                     <div class="box highlight">
                         <i class="icon major fa fa-certificate"></i>
                         <h3>Un élevage en plein air</h3>
-                        <p>Des vaches Salaires à qui on laisse leurs cornes, elevées dans les 10 hectares du Gaec.</p>
+                        <p>Des vaches Salers à qui on laisse leurs cornes, elevées dans les 75 hectares du Gaec.</p>
                     </div>
                 </section>
                 <section class="4u 12u(narrower)">

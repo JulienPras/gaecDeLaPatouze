@@ -25,7 +25,7 @@
 
             <div class="content">
                 <header>
-                    <h2>Les pièces de viande disponible</h2>
+                    <h2>Les pièces de veau disponible</h2>
                     <p>Le gaec de la patouze vous propose un vaste choix de morceaux de viande de qualité en provenance directe de la ferme.</p>
                 </header>
                 <!-- content here -->
@@ -42,35 +42,20 @@
                                 <span class="product-grid__title">La blanquette</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">La fameuse et incroyable blanquette.</p>
+                                        <p class="product-grid__description">A faire mijoter lentement avec son riz.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- end Single product -->
                         <div class="product-grid__product-wrapper">
                             <div class="product-grid__product">
                                 <div class="product-grid__img-wrapper">
-                                    <img src="images/products/bourgignon.jpg" alt="Img" class="product-grid__img" />
+                                    <img src="images/products/coteFilet.jpg" alt="Img" class="product-grid__img" />
                                 </div>
-                                <span class="product-grid__title">Le bourgignon</span>
+                                <span class="product-grid__title">La cote filet</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">Le bourgignon, l'unique.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="product-grid__product-wrapper">
-                            <div class="product-grid__product">
-                                <div class="product-grid__img-wrapper">
-                                    <img src="images/products/coteBoeuf.jpg" alt="Img" class="product-grid__img" />
-                                </div>
-                                <span class="product-grid__title">La cote de boeuf.</span>
-                                <div class="product-grid__extend-wrapper">
-                                    <div class="product-grid__extend">
-                                        <p class="product-grid__description">On se fait une petite cote ?.</p>
+                                        <p class="product-grid__description">A saisir à vif avec sa crème et ses champignons.</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,26 +64,12 @@
                         <div class="product-grid__product-wrapper">
                             <div class="product-grid__product">
                                 <div class="product-grid__img-wrapper">
-                                    <img src="images/products/coteParisenne.jpg" alt="Img" class="product-grid__img" />
+                                    <img src="images/products/coteDecouverte.jpg" alt="Img" class="product-grid__img" />
                                 </div>
-                                <span class="product-grid__title">La cote parisenne</span>
+                                <span class="product-grid__title">Cote découverte</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">Elle vient de paname celle la juste pour vous.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="product-grid__product-wrapper">
-                            <div class="product-grid__product">
-                                <div class="product-grid__img-wrapper">
-                                    <img src="images/products/coteVeau.jpg" alt="Img" class="product-grid__img" />
-                                </div>
-                                <span class="product-grid__title">Cote de veau</span>
-                                <div class="product-grid__extend-wrapper">
-                                    <div class="product-grid__extend">
-                                        <p class="product-grid__description">Une fois qu'on a fait la maman on va pas laisser le fils tout seul.</p>
+                                        <p class="product-grid__description">A cuire lentement à feu doux avec sa purée de pomme de terre.</p>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +83,25 @@
                                 <span class="product-grid__title">Escalope</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">Une escale gustative.</p>
+                                        <p class="product-grid__description">Saisir dans une poele chaude avec sa crème et ses champignons.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/rotiEpaule.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Roti d'épaule</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">A four chaud avec son gratin dauphinois.</p>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +115,32 @@
                                 <span class="product-grid__title">Noix à rotir</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">La noix à rotir idéal pour rotir.</p>
+                                        <p class="product-grid__description">A mijoter dans sa cocotte avec sa jardinière de légumes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <header>
+                    <h2>Les pièces de boeuf disponible</h2>
+                    <p>Le gaec de la patouze vous propose un vaste choix de morceaux de viande de qualité en provenance directe de la ferme.</p>
+                </header>
+                <!-- content here -->
+                <div class="product-grid product-grid--flexbox">
+                    <div class="product-grid__wrapper">
+
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/rosbeef.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Rosbeef</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">Four chaud temps de cuisson : circonference du roti donne le temps de cuisson.<br>(10 cm = 10 minutes)</br></p>
                                     </div>
                                 </div>
                             </div>
@@ -135,12 +149,12 @@
                         <div class="product-grid__product-wrapper">
                             <div class="product-grid__product">
                                 <div class="product-grid__img-wrapper">
-                                    <img src="images/products/paleron.jpg" alt="Img" class="product-grid__img" />
+                                    <img src="images/products/bourgignon.jpg" alt="Img" class="product-grid__img" />
                                 </div>
-                                <span class="product-grid__title">Paleron</span>
+                                <span class="product-grid__title">Le bourgignon</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">Ca fait pale figure..</p>
+                                        <p class="product-grid__description">A mijoter dans un bon Cote Roannaise avec ses carottes.</p>
                                     </div>
                                 </div>
                             </div>
@@ -149,12 +163,12 @@
                         <div class="product-grid__product-wrapper">
                             <div class="product-grid__product">
                                 <div class="product-grid__img-wrapper">
-                                    <img src="images/products/rotiEpaule.jpg" alt="Img" class="product-grid__img" />
+                                    <img src="images/products/coteBoeuf.jpg" alt="Img" class="product-grid__img" />
                                 </div>
-                                <span class="product-grid__title">Roti d'épaule</span>
+                                <span class="product-grid__title">La cote de boeuf.</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">Faut aller à l'ostéo.</p>
+                                        <p class="product-grid__description">A faire griller sur le barbecue avec ses poivrons grillés.</p>
                                     </div>
                                 </div>
                             </div>
@@ -163,12 +177,26 @@
                         <div class="product-grid__product-wrapper">
                             <div class="product-grid__product">
                                 <div class="product-grid__img-wrapper">
-                                    <img src="images/products/filetBoeuf.jpg" alt="Img" class="product-grid__img" />
+                                    <img src="images/products/braise.jpg" alt="Img" class="product-grid__img" />
                                 </div>
-                                <span class="product-grid__title">Filet de boeuf</span>
+                                <span class="product-grid__title">Braisé</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
-                                        <p class="product-grid__description">Tomber dans ses fillet.</p>
+                                        <p class="product-grid__description">A faire cuire lentement au four avec des haricots verts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-grid__product-wrapper">
+                            <div class="product-grid__product">
+                                <div class="product-grid__img-wrapper">
+                                    <img src="images/products/potAuFeu.jpg" alt="Img" class="product-grid__img" />
+                                </div>
+                                <span class="product-grid__title">Pot au feu</span>
+                                <div class="product-grid__extend-wrapper">
+                                    <div class="product-grid__extend">
+                                        <p class="product-grid__description">A faire cuire au court bouillon avec ses légumes...</p>
                                     </div>
                                 </div>
                             </div>
@@ -185,18 +213,16 @@
                 <div class="product-grid product-grid--flexbox">
                     <div class="product-grid__wrapper">
                         <!-- Product list start here -->
+                        <div class="product-grid__product-wrapper">
 
+                        </div>
                         <!-- Single product -->
                         <div class="product-grid__product-wrapper">
                             <div class="product-grid__product">
                                 <div class="product-grid__img-wrapper">
                                     <img src="images/products/conditionement.jpg" alt="Img" class="product-grid__img" />
                                 </div>
-                                <span class="product-grid__title">La viande</span>
-                                <div class="product-grid__extend-wrapper">
-                                    <div class="product-grid__extend">
-                                    </div>
-                                </div>
+                                <span class="product-grid__title">La caissette de livraison</span>
                             </div>
                         </div>
                         <!-- end Single product -->
@@ -205,9 +231,10 @@
                                 <div class="product-grid__img-wrapper">
                                     <img src="images/products/conditionnementCaissette.jpg" alt="Img" class="product-grid__img" />
                                 </div>
-                                <span class="product-grid__title">La caissette</span>
+                                <span class="product-grid__title">Conditionnement de la viande</span>
                                 <div class="product-grid__extend-wrapper">
                                     <div class="product-grid__extend">
+                                        <p class="product-grid__description">Une catégorie de morceau par sachet identifié.</p>
                                     </div>
                                 </div>
                             </div>
