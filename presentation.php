@@ -34,12 +34,12 @@
 
                     <span class="image featured"><img src="images/banner.jpg" alt="" /></span>
 
-                    <p>Notre exploitation de Montagne est dans la famille depuis pluieurs generation,elle est restee traditionnelle et a taille humaine.</p>
-                    <p>Apres avoir travaille a l'exterieur Richard reprend l'exploitation de vâche allaitante suite a la retraite de ses parents en 1997.</p>
-                    <p>En 2004, son frere Hubert le rejoint avec la creation d un atelier de vente directe en viande bovine pour pereniser son installation.</p>
+                    <p>Notre exploitation de montagne est dans la famille depuis plusieurs generations, elle est restée traditionnelle et à taille humaine.</p>
+                    <p>Apres avoir travaillé à l'exterieur, Richard reprend l'exploitation de vaches allaitantes suite à la retraite de ses parents en 1997.</p>
+                    <p>En 2004, son frère Hubert le rejoint avec la création d'un atelier de vente directe en viande bovine pour pereniser son installation.</p>
 
                     <h3>Mais surtout</h3>
-                    <p>Depuis nous sommes heureux de vous faire partager la passion de notre metier a travers nos produits et de vous compter parmi nos clients.</p>
+                    <p>Nous sommes heureux de vous faire partager la passion de notre metier a travers nos produits et de vous compter parmi nos clients.</p>
 
 
                 </article>
