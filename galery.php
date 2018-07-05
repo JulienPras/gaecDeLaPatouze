@@ -30,20 +30,20 @@
                 </div>
 
                 <div class="column">
-                    <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
-                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg"></a>
-                    <a data-fancybox="gallery" href="images/3.jpg"><img src="images/3.jpg"></a>
+                    <a data-fancybox="gallery" href="images/4.jpg"><img src="images/4.jpg"></a>
+                    <a data-fancybox="gallery" href="images/5.jpg"><img src="images/5.jpg"></a>
+                    <a data-fancybox="gallery" href="images/6.jpg"><img src="images/6.jpg"></a>
                 </div>
 
                 <div class="column">
-                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/3.jpg"></a>
-                    <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
-                    <a data-fancybox="gallery" href="images/3.jpg"><img src="images/1.jpg"></a>
+                    <a data-fancybox="gallery" href="images/6.jpg"><img src="images/6.jpg"></a>
+                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg"></a>
+                    <a data-fancybox="gallery" href="images/4.jpg"><img src="images/4.jpg"></a>
                 </div>
 
                 <div class="column">
-                    <a data-fancybox="gallery" href="images/1.jpg"><img src="images/1.jpg"></a>
                     <a data-fancybox="gallery" href="images/2.jpg"><img src="images/2.jpg"></a>
+                    <a data-fancybox="gallery" href="images/5.jpg"><img src="images/5.jpg"></a>
                     <a data-fancybox="gallery" href="images/3.jpg"><img src="images/3.jpg"></a>
                 </div>
 

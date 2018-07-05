@@ -83,6 +83,7 @@
                 </form>
 
             </div><!-- /.8 -->
+            <span class="image featured"><img src="images/location.jpg" alt="" /></span>
         </div>
     </section>
 
