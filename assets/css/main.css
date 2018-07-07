@@ -3190,9 +3190,73 @@
 	}
 
 
-/* Custom */
+/* Custom slider */
 
 a.prev, a.next
 {
 	border-bottom: none;
 }
+
+.mySlides
+{
+	position: relative;
+}
+
+.sliderImgDescription
+{
+	position: absolute;
+	top: 23%;
+	left: 43%;
+	width: 250px;
+	height: 250px;
+	padding: 15px;
+	background: rgba(255, 255, 255, 0.85) ;
+	font-family: Arial;
+	color: #161616;
+	line-height: 20px;
+}
+
+.sliderImgDescription h1
+{
+	font-size: 30px;
+	color: #aa393f;
+	text-align: center;
+	margin-bottom: 25px;
+	line-height: 20px;
+}
+
+.sliderImgDescription h2
+{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 25px;
+	line-height: 20px;
+}
+
+.sliderImgDescription .sliderImgDescriptionPrice
+{
+	font-size: 26px;
+	font-weight: bold;
+	float: right;
+	margin-bottom: 25px;
+}
+
+.sliderImgDescription .sliderImgDescriptionPriceMin
+{
+	font-size: 18px;
+}
+
+.sliderImgDescription p
+{
+	float: none;
+	clear: both;
+	font-size: 14px;
+}
+
+.sliderImgDescription p .sliderImgDescriptionStrong
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
