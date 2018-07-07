@@ -24,6 +24,26 @@
         <div class="container">
             <div class="row">
                 <div class="half-width col-lg-offset-2">
+
+                    <?php
+                        $html = "";
+
+                        if(isset($_GET["error"]) && $_GET["error"] == "0")
+                        {
+                            $html = "<div class='alert alert-success'>Message envoyé.</div>";
+                        }
+                        else if(isset($_GET["error"]) && $_GET["error"] == "1")
+                        {
+                            $html = "<div class='alert alert-warning'>Un problème est survenu durant l'envoi du message.</div>";
+                        }
+                        else if(isset($_GET["error"]) && $_GET["error"] == "2")
+                        {
+                            $html = "<div class='alert alert-warning'>Un problème est survenu durant la validation du Captcha.</div>";
+                        }
+
+                        echo $html;
+                    ?>
+
                     <h1>Une question sur nos produits ? N'hésitez pas à nous contacter. </h1>
 
                     <form id="contact-form" method="post" action="mailer.php">
