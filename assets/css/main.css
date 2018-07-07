@@ -3259,4 +3259,31 @@ a.prev, a.next
 	font-weight: bold;
 }
 
+/** Contact **/
 
+.half-width
+{
+	width: 50%;
+}
+
+.captchaContainer
+{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.submitContact
+{
+	width: 100%;
+}
+
+p.contactInstructions
+{
+	margin-bottom: 30px;
+}
+
+#submitContact:disabled
+{
+	cursor: default;
+	background: #9be2ff;
+}
