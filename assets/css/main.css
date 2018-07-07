@@ -3188,3 +3188,11 @@
 			}
 
 	}
+
+
+/* Custom */
+
+a.prev, a.next
+{
+	border-bottom: none;
+}
