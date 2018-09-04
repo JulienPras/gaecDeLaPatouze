@@ -1,44 +1,50 @@
 <?php
-// ----------------------------------------- 
-//  The Web Help .com
-// ----------------------------------------- 
-// remember to replace your@email.com with your own email address lower in this code.
 
-// load the variables form address bar
-$name = $_REQUEST["name"];
-$subject = $_REQUEST["subject"];
-$message = $_REQUEST["message"];
-$from = $_REQUEST["from"];
-$verif_box = $_REQUEST["verif_box"];
+const RECAPTCHA_SECRET = "6Le-RW4UAAAAANy2b7-NI2hzG5S73tDCg7KJ25-u";
+const RECAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify";
+const RECEIVER_MAIL = "julien.pras@gmail.com";
 
-// remove the backslashes that normally appears when entering " or '
-$name = stripslashes($name); 
-$message = stripslashes($message); 
-$subject = stripslashes($subject); 
-$from = stripslashes($from); 
+$data = array(
+    'secret' => RECAPTCHA_SECRET,
+    'response' => $_POST["g-recaptcha-response"]
+);
+$options = array(
+    'http' => array (
+        'method' => 'POST',
+        'content' => http_build_query($data)
+    )
+);
+$context  = stream_context_create($options);
+$verify = file_get_contents(RECAPTCHA_URL, false, $context);
+$captchaSsuccess = json_decode($verify);
 
-// check to see if verificaton code was correct
-if(md5($verif_box).'a4xn' == $_COOKIE['tntcon']){
-	// if verification code was correct send the message and show this page
-	$message = "Name: ".$name."\n".$message;
-	$message = "From: ".$from."\n".$message;
-	mail("email@my-site-here.com", 'Online Form: '.$subject, $_SERVER['REMOTE_ADDR']."\n\n".$message, "From: $from");
-	// delete the cookie so it cannot sent again by refreshing this page
-	setcookie('tntcon','');
-} else {
-	// if verification code was incorrect then return to contact page and show error
-	header("Location:".$_SERVER['HTTP_REFERER']."?subject=$subject&from=$from&message=$message&wrong_code=true");
-	exit;
+if ($captchaSsuccess->success == true)
+{
+    $name = $_REQUEST["name"];
+    $subject = $_REQUEST["subject"];
+    $message = $_REQUEST["message"];
+    $from = $_REQUEST["from"];
+
+    $name = stripslashes($name);
+    $message = stripslashes($message);
+    $subject = stripslashes($subject);
+    $from = stripslashes($from);
+
+    $message = "Name: ".$name."\n".$message;
+    $message = "From: ".$from."\n".$message;
+    $success = mail(RECEIVER_MAIL, 'Contact Gaec-de-la-Patouze.fr : '.$subject, $message, "From: $from");
+
+    if($success)
+    {
+        header("Location:contact.php?error=0");
+    }
+    else
+    {
+        header("Location:contact.php?error=1");
+    }
 }
-?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>PHP Contact Form Redirect</title>
-</head>
-
-<body>
-</body>
-</html>
+else
+{
+    header("Location:contact.php?error=2");
+}
+exit;

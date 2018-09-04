@@ -30,15 +30,31 @@
             <div class="slideshow-container">
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
-                    <img src="images/slider1.jpg" style="width:100%">
+                    <img class="sliderImg" src="images/slider1.jpg" style="width:100%">
+                    <div class="sliderImgDescription">
+                        <h1>Boeuf</h1>
+                        <h2>Jeune bovin âgé d'un an environ</h2>
+                        <span class="sliderImgDescriptionPrice">10,50€<span class="sliderImgDescriptionPriceMin">/kg</span></span>
+                        <p>
+                            <span class="sliderImgDescriptionStrong">Colis de 10kg</span> environ, étiqueté par catégorie de viande.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/slider2.jpg" style="width:100%">
+                    <img class="sliderImg" src="images/slider2.jpg" style="width:100%">
+                    <div class="sliderImgDescription">
+                        <h1>Veau</h1>
+                        <h2>Rosé élevé sous la mère</h2>
+                        <span class="sliderImgDescriptionPrice">13,00€<span class="sliderImgDescriptionPriceMin">/kg</span></span>
+                        <p>
+                            <span class="sliderImgDescriptionStrong">Colis de 5 ou de 10kg</span> environ, étiqueté par catégorie de viande.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/slider3.jpg" style="width:100%">
+                    <img class="sliderImg" src="images/slider3.jpg" style="width:100%">
                 </div>
 
                 <!-- Next and previous buttons -->
