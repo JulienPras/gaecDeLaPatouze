@@ -96,7 +96,7 @@
                             <div class="row2 captchaContainer">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <div class="g-recaptcha" data-sitekey="6LfKURIUAAAAAO50vlwWZkyK_G2ywqE52NU7YO0S" data-callback="recaptchaCallback"></div>
+                                        <div class="g-recaptcha" data-sitekey="6Le-RW4UAAAAACi0sUqqmTSeIcKa2vzVgfjz1QYO" data-callback="recaptchaCallback"></div>
                                     </div>
                                 </div>
                             </div>

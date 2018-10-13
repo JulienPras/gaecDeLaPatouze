@@ -1,6 +1,6 @@
 <?php
 
-const RECAPTCHA_SECRET = "";
+const RECAPTCHA_SECRET = "6Le-RW4UAAAAANy2b7-NI2hzG5S73tDCg7KJ25-u";
 const RECAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify";
 const RECEIVER_MAIL = "julien.pras@gmail.com";
 
