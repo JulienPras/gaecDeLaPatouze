@@ -111,6 +111,7 @@
                     </form>
 
                 </div><!-- /.8 -->
+
                 <div class="image featured half-width"><img src="images/location.jpg" alt="" /></div>
             </div>
 

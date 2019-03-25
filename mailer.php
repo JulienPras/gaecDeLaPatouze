@@ -6,7 +6,7 @@ require_once 'vendor/autoload.php';
 
 const RECAPTCHA_SECRET = "6Le-RW4UAAAAANy2b7-NI2hzG5S73tDCg7KJ25-u";
 const RECAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify";
-const RECEIVER_MAIL = "julien.pras@gmail.com";
+const RECEIVER_MAIL = ["gaecdelapatouze@wanadoo.fr","tasie2@msn.com","julien.pras@gmail.com"];
 
 $data = array(
     'secret' => RECAPTCHA_SECRET,
@@ -27,9 +27,9 @@ $captchaSsuccess = json_decode($verify);
 if ($captchaSsuccess->success == true)
 {
     $name = $_REQUEST["name"];
-    $subject = $_REQUEST["subject"];
+    $surname = $_REQUEST["surname"];
     $message = $_REQUEST["message"];
-    $from = $_REQUEST["from"];
+    $from = $_REQUEST["email"];
 
     $name = stripslashes($name);
     $message = stripslashes($message);
@@ -46,7 +46,8 @@ if ($captchaSsuccess->success == true)
     $message = (new Swift_Message('Contact gaec-de-la-patouze.fr'))
         ->setFrom(['contact@gaec-de-la-patouze.fr' => 'Contact Gaec de la Patouze'])
         ->setTo(RECEIVER_MAIL)
-        ->setBody($message)
+        ->setBody("Message reçu de $name $surname du mail $from\n
+            Message : $message")
     ;
 
     $success = $mailer->send($message);

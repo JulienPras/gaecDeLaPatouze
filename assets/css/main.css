@@ -3205,12 +3205,12 @@ a.prev, a.next
 .sliderImgDescription
 {
 	position: absolute;
-	top: 23%;
-	left: 43%;
+	top: 45%;
+	left: 75%;
 	width: 250px;
 	height: 250px;
 	padding: 15px;
-	background: rgba(255, 255, 255, 0.85) ;
+	background: rgba(255, 255, 255, 0.75) ;
 	font-family: Arial;
 	color: #161616;
 	line-height: 20px;
@@ -3264,6 +3264,7 @@ a.prev, a.next
 .half-width
 {
 	width: 50%;
+	height: 75%;
 }
 
 .captchaContainer
